@@ -125,16 +125,21 @@ margin-top: 120px;
 .social{
     margin-top: 20px;
 }
+.social img{
+    cursor: pointer;
+}
 
 
 .right-foot input{
     display:block;
     margin: 30px 0px 30px 0px;
+    padding-left: 15px;
     width: 300px;
     height: 40px;
     border-radius: 7px;
     background-color: black;
     border: 1px solid white;
+    color: white;
 }
 .right-foot a{
     text-decoration: none;
