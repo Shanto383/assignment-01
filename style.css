@@ -99,6 +99,10 @@ header{
 
 .sub-part-2{
     position: relative;
+    background-image: url(images/gradient.png);
+    width: 1140px;
+    height: 301px;
+    left: 200px;
 }
 .part-3{
 text-align: center;
@@ -147,4 +151,23 @@ margin-top: 120px;
     background-color: rgb(0, 139, 246);
     padding: 15px 20px;
     border-radius: 5px;
+}
+.p3-content{
+    float: left;
+    text-align: left;
+    margin:80px;
+    color: white;
+}
+.p3-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.p3-content a{
+    text-decoration: none;
+    color:rgb(0, 139, 246);
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight: bold;
 }
