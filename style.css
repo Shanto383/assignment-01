@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    height: 808px;
+    width: 100%;;
+    background-image: url(images/banner/banner.png);
+}
+.content{
+    float: right;
+    width: 30%;
+    margin-top: 200px;
+    margin-right: 200px;
+    text-align: right;
+}
+.content .title{
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+}
+.content p{
+    color: white;
+    margin-bottom: 50px;
+}
+.content a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#part-1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+#part-1 img{
+    width: 550px;
+}
+.left-side{
+    margin-right: 50px;
+
+}
+.right-side{
+    margin:100px 0px 0px 20px;
+}
+.right-side h3{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.right-side p{
+    width: 450px;
+    margin-top: 20px;
+}
+.right-side ul li{
+    margin-top: 20px;
+    margin-left: 18px;
+    list-style: square;
+}
+
+.part-2-wrapper{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.plan-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+#part-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.plans{
+    text-align: center;
+}
+.plans h1{
+    font-size: 30px;
+}
+.plans p{
+    font-size: 20px;
+    color: gray;
+}
+.sub-part-1{
+ position: absolute;
+ left: 200px;
+}
+
+.sub-part-2{
+    position: relative;
+}
+.part-3{
+text-align: center;
+margin-top: 120px;
+}
+.foot-wrapper{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 120px;
+}
+.left-foot{
+    width: 50%;
+    margin:150px 200px;
+}
+.right-foot{
+    width: 50%;
+    margin:150px 200px;
+}
+.left-foot p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+.social{
+    margin-top: 20px;
+}
+
+
+.right-foot input{
+    display:block;
+    margin: 30px 0px 30px 0px;
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: black;
+    border: 1px solid white;
+}
+.right-foot a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 139, 246);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
